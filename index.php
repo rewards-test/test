@@ -63,10 +63,6 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script>
 
-		$(document).on('error', 'img', function(e){
-			    $(this).addClass('missing-image').attr('src', 'http://quickaskips.com/wp-content/uploads/2018/04/funny-missing-person-poster-best-ampquotlostampquot-sign-yet-best-ideas-of-funny-missing-person-poster-of-funny-missing-person-poster.jpg');
-			});
-
 		$(document).ready(function() {
 
 		    $('.btn').click(function() {
